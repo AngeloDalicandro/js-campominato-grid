@@ -20,8 +20,7 @@ const bombNumber = 16;
 // Genero l'array con le bombe con la funzione
 const bombs = bombGenerator(minRange, maxRange, bombNumber);
 // Constato quanti tentativi ha l'utente per vincere il gioco
-const userAttempts = 2; 
-// maxRange - bombNumber; 
+const userAttempts = maxRange - bombNumber;
 
 // Passo a impostare il gioco una volta definite le variabili
 // Creo una condizione che se falsa termina il gioco
